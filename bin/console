@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+ENV['RACK_ENV'] = 'development' unless ENV['RACK_ENV']
+require "#{File.expand_path(File.dirname(__FILE__))}/../app/core"
+require 'pry'
+Pry.start
