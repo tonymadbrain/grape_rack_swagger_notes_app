@@ -1,3 +1,3 @@
 class Note < ActiveRecord::Base
-  validates :author, :title, :body, presence: true
+  validates :author, :title, :content, presence: true
 end
