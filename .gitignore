@@ -20,3 +20,6 @@
 
 #ruby version and gem
 .ruby-*
+
+#configs
+config/database.yml

@@ -1,7 +1,7 @@
 class Notes < Grape::API
 
   version 'v1', using: :header, vendor: 'tonymadbrain'
-    format :json
+  format :json
 
   resource 'notes' do
 
